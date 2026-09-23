@@ -53,3 +53,22 @@ A multi-tenant Student Readiness Control Center for tracking student competency 
 cd Backend
 npm install
 npm run dev
+
+### Frontend
+
+cd Admin-Panel
+npm install
+npm run dev
+
+### .env
+Configure PostgreSQL, MongoDB and JWT environment variables in .env
+
+### APIs
+Main endpoints:
+- POST /api/auth/login
+- GET /api/students
+- GET /api/students/:id
+- POST /api/students/:id/attempts
+- PATCH /api/students/:id
+- GET /api/students/:id/activity
+- GET /api/students/dashboard/stats
